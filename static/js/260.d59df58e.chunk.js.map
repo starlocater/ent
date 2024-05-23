@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/260.d59df58e.chunk.js","mappings":"+IAAA,MAKA,EALoBA,KAEhBC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,e","sources":["pages/gamedetails/helldivers2.js"],"sourcesContent":["const helldivers2 = () => {\n  return (\n    <div>helldivers2</div>\n  )\n}\nexport default helldivers2"],"names":["helldivers2","_jsx","children"],"sourceRoot":""}

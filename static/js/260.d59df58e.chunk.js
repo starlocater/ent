@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_ent=self.webpackChunkreact_ent||[]).push([[260],{260:(e,s,t)=>{t.r(s),t.d(s,{default:()=>r});var c=t(579);const r=()=>(0,c.jsx)("div",{children:"helldivers2"})}}]);
+//# sourceMappingURL=260.d59df58e.chunk.js.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/966.abf56402.chunk.js","mappings":"+IAAA,MAKA,EALgBA,KAEZC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,W","sources":["pages/gamedetails/valheim.js"],"sourcesContent":["const valheim = () => {\n  return (\n    <div>valheim</div>\n  )\n}\nexport default valheim"],"names":["valheim","_jsx","children"],"sourceRoot":""}

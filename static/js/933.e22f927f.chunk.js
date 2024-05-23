@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_ent=self.webpackChunkreact_ent||[]).push([[933],{933:(e,t,c)=>{c.r(t),c.d(t,{default:()=>r});var a=c(579);const r=()=>(0,a.jsx)("div",{children:"factorio"})}}]);
+//# sourceMappingURL=933.e22f927f.chunk.js.map

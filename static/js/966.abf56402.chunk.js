@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_ent=self.webpackChunkreact_ent||[]).push([[966],{966:(e,t,a)=>{a.r(t),a.d(t,{default:()=>s});var c=a(579);const s=()=>(0,c.jsx)("div",{children:"valheim"})}}]);
+//# sourceMappingURL=966.abf56402.chunk.js.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/504.0fb293c0.chunk.js","mappings":"+IAAA,MAKA,EALqBA,KAEjBC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,gB","sources":["pages/gamedetails/satisfactory.js"],"sourcesContent":["const satisfactory = () => {\n  return (\n    <div>satisfactory</div>\n  )\n}\nexport default satisfactory"],"names":["satisfactory","_jsx","children"],"sourceRoot":""}

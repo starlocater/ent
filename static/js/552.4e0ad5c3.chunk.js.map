@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/552.4e0ad5c3.chunk.js","mappings":"+IAAA,MAKA,EALaA,KAETC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,Q","sources":["pages/gamedetails/rust.js"],"sourcesContent":["const rust = () => {\n  return (\n    <div>rust</div>\n  )\n}\nexport default rust"],"names":["rust","_jsx","children"],"sourceRoot":""}

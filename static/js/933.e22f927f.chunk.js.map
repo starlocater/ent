@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/933.e22f927f.chunk.js","mappings":"+IAAA,MAKA,EALiBA,KAEbC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,Y","sources":["pages/gamedetails/factorio.js"],"sourcesContent":["const factorio = () => {\n  return (\n    <div>factorio</div>\n  )\n}\nexport default factorio"],"names":["factorio","_jsx","children"],"sourceRoot":""}
