@@ -29,6 +29,12 @@ const Nav = ({ isOpen, isGuideOpen, setIsOpen, setIsGuideOpen }) => {
         navigate(`/games/${game}`);
     }
 
+    const NavBar_CTOClicked = () => {
+        setIsOpen(false);
+        setIsGuideOpen(false);
+        navigate('/streamers');
+    }
+
     // const NavBar_GuideClicked = () => {}
 
     const games = ['minecraft','zomboid','helldivers2','satisfactory','rust','valheim','factorio','palworld']
@@ -61,12 +67,15 @@ const Nav = ({ isOpen, isGuideOpen, setIsOpen, setIsGuideOpen }) => {
                 <FontAwesomeIcon icon={faCaretDown} className="text-white" />
                 <p className="text-4xl font-jersey text-white ml-4"> GUIDES </p>
             </div>
+            <div className="flex items-center cursor-pointer ml-24 text-white hover:text-cyan-300" onClick={NavBar_CTOClicked}>
+                <p className="text-4xl font-jersey ml-4"> MTO server for STREAMERS! </p>
+            </div>
         </div>
         <div className="absolute right-5">
             <FontAwesomeIcon icon={faGlobe} className="text-white text-3xl" />
         </div>
         {isOpen && !isGuideOpen && (
-        <div className="absolute top-full mt-2 left-2 w-2/3 rounded-lg bg-slate-800 shadow-lg z-10">
+        <div className="absolute top-full mt-2 left-2 w-2/3 bg-slate-800 shadow-lg z-10">
             <ul className="grid grid-cols-4 gap-2 text-white font-jersey">
                 {games.map((game, index) => (
                     <div key={index} className="flex flex-row justify-start items-center border-2 rounded-lg border-transparent cursor-pointer hover:border-cyan-300" onClick={()=>NavBar_Gameclicked(game)}>
@@ -78,7 +87,7 @@ const Nav = ({ isOpen, isGuideOpen, setIsOpen, setIsGuideOpen }) => {
         </div>
             )}
         {isGuideOpen && !isOpen && (
-            <div className="absolute top-full mt-2 left-1/4 w-1/4 rounded-lg bg-slate-800 shadow-lg z-10">
+            <div className="absolute top-full mt-2 left-72 w-1/4 bg-slate-800 shadow-lg z-10">
                 <ul className="flex flex-col space-y-2 align-middle justify-center text-white font-jersey">
                         <div className="flex flex-row justify-center items-center border-2 rounded-lg border-transparent cursor-pointer hover:border-cyan-300">
                             <li className="text-center text-3xl"> Getting Server </li>

@@ -1,9 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   important: true,
-  content: [ "./src/**/*.{js,jsx,ts,tsx}"],
+  content: [ "./src/**/*.{js,jsx,ts,tsx}", "./index.html"],
   theme: {
     fontFamily: {
+      // *폰트 이름에 띄어쓰기가 있는 경우 따옴표로 묶어줘야 함*
       jersey: ['"Jersey 10"', 'sans-serif'],
     },
     screens: {
