@@ -21,7 +21,6 @@ const Clips = () => {
     const[videos, setVideos] = useState([]);
     const clientId = 'lobzukjtiokyn94s79sckhpkguzm9c'
     const gameId = '766571430'
-    const parentDomain = 'http://localhost'
 
     useEffect(() => {
         const fetchVideos = async () => {

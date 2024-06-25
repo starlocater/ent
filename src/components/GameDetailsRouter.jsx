@@ -3,7 +3,7 @@ import { Route, Routes, useParams } from 'react-router-dom';
 
 const GameDetailsRouter = () => {
   const { gameName } = useParams();
-  const GameDetailsPage = useMemo(() => React.lazy(() => import(`../pages/gamedetails/${gameName}`)), [gameName]);
+  const GameDetailsPage = useMemo(() => React.lazy(() => import(`../pages/gamedetails/${gameName}.jsx`)), [gameName]);
 
   return (
     <div className="pt-32 w-screen h-screen overflow-y-scroll no-scrollbar bg-black">
